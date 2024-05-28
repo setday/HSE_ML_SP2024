@@ -21,3 +21,11 @@ HSE University second course ML course final project about toxic comments classi
 - `telegram_bot` - бот
 - `data` - датасеты, с помощью которых была обучена модель
 - `presentation` - презентация проведённой работы
+
+## Источники данных:
+
+![Источник 1](https://www.kaggle.com/datasets/fizzbuzz/cleaned-toxic-comments)
+![Источник 2](https://www.kaggle.com/datasets/reihanenamdari/youtube-toxicity-data)
+
+## Ссылка на презентацию:
+![Презентация](https://docs.google.com/presentation/d/13glzvB9G97l3Urqa2Q2wshJdEIHZV06h0y6Kx4dYEKw/edit?usp=sharing)
