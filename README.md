@@ -9,9 +9,9 @@ HSE University second course ML course final project about toxic comments classi
 # Задачи проекта:
 
 1. Подобрать модель для классификации токсичных комментариев
-1. Запаковать её в утилиту
-1. Собрать свой датасет и дообучить на нём модель
-1. Сделать бота в телеграме для использование нашей модели
+2. Запаковать её в утилиту
+3. Собрать свой датасет и дообучить на нём модель
+4. Сделать бота в телеграме для использование нашей модели
 
 # Проект разделён на несколько разделов:
 
@@ -20,12 +20,14 @@ HSE University second course ML course final project about toxic comments classi
 - `utils` - утилиты для работы 'запакованной' модели + сама запакованная модель
 - `telegram_bot` - бот
 - `data` - датасеты, с помощью которых была обучена модель
-- `presentation` - презентация проведённой работы
 
 ## Источники данных:
 
-![Источник 1](https://www.kaggle.com/datasets/fizzbuzz/cleaned-toxic-comments)
-![Источник 2](https://www.kaggle.com/datasets/reihanenamdari/youtube-toxicity-data)
+[Источник 1](https://www.kaggle.com/datasets/fizzbuzz/cleaned-toxic-comments)
+[Источник 2](https://www.kaggle.com/datasets/reihanenamdari/youtube-toxicity-data)
 
 ## Ссылка на презентацию:
-![Презентация](https://docs.google.com/presentation/d/13glzvB9G97l3Urqa2Q2wshJdEIHZV06h0y6Kx4dYEKw/edit?usp=sharing)
+[Презентация](https://docs.google.com/presentation/d/13glzvB9G97l3Urqa2Q2wshJdEIHZV06h0y6Kx4dYEKw/edit?usp=sharing)
+
+## Использованная метрика:
+f1-score
