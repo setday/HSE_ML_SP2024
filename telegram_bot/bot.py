@@ -5,7 +5,8 @@ from aiogram import Bot, Dispatcher, enums
 from keys import get_bot_key
 from main_router import MainRouter
 
-bot = Bot(get_bot_key(), parse_mode=enums.ParseMode.HTML)
+# https://t.me/hse_ml_sp2024_bot
+bot = Bot(get_bot_key())
 dp = Dispatcher()
 
 main_router = MainRouter(bot)
