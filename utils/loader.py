@@ -21,7 +21,7 @@ def import_data(data, allowed_inline=False):
     
     out_data['text'] = out_data['text'].astype(str)
     
-    return out_data['text']
+    return out_data
 
 def import_model(model_name, vectorizer_name):
     if not model_name:
@@ -36,4 +36,4 @@ def import_model(model_name, vectorizer_name):
             vectorizer
         )
     
-    raise FileNotFoundError(f'{model_name} or {model_name[:-4] + "_vectorizer.pkl"} not exists!')
+    raise FileNotFoundError(f'{model_name} or {vectorizer_name} not exists!')

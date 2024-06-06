@@ -6,6 +6,6 @@ def model_predict(model, data: str):
     if model_vec.vocabulary_ is None:
         raise ValueError(f'Vectorizer is not fitted. Fit vectorizer first.')
 
-    x_data = model_vec.transform([data])
+    x_data = model_vec.transform(data['text'])
 
     return model_lr.predict(x_data)
