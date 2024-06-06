@@ -6,7 +6,7 @@ from utils.loader import import_model
 from utils.model_worker import model_predict
 from utils.text_refactorer import refactor_data
 
-mod_vec = import_model("models/RandomForestClassifier.pkl", "models/TfidfVectorizer.pkl")
+mod_vec = import_model("models/LogisticRegression.pkl", "models/TfidfVectorizer.pkl")
 
 def predict_rating(text: str) -> int:
     text = refactor_data([text])

@@ -7,7 +7,7 @@ from text_refactorer import refactor_data
 
 @click.command()
 @click.option('--data', required=True, help='Data sheet to be trained on or to be predicted.', type=str)
-@click.option('--model', required=False, help='Model in pickle format path.', type=str, default='models/RandomForestClassifier.pkl')
+@click.option('--model', required=False, help='Model in pickle format path.', type=str, default='models/LogisticRegression.pkl')
 @click.option('--vectorizer', required=False, help='Vectorizer in pickle format path.', type=str, default='models/TfidfVectorizer.pkl')
 def main(data, model, vectorizer):
     if not data:
