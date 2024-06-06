@@ -6,6 +6,9 @@
 # HSE_ML_SP2024
 HSE University second course ML course final project about toxic comments classification
 
+## Ссылка на презентацию:
+[Презентация](https://docs.google.com/presentation/d/13glzvB9G97l3Urqa2Q2wshJdEIHZV06h0y6Kx4dYEKw/edit?usp=sharing)
+
 # Задачи проекта:
 
 1. Подобрать модель для классификации токсичных комментариев
@@ -23,11 +26,8 @@ HSE University second course ML course final project about toxic comments classi
 
 ## Источники данных:
 
-[Источник 1](https://www.kaggle.com/datasets/fizzbuzz/cleaned-toxic-comments)
-[Источник 2](https://www.kaggle.com/datasets/reihanenamdari/youtube-toxicity-data)
-
-## Ссылка на презентацию:
-[Презентация](https://docs.google.com/presentation/d/13glzvB9G97l3Urqa2Q2wshJdEIHZV06h0y6Kx4dYEKw/edit?usp=sharing)
+- [Источник 1](https://www.kaggle.com/datasets/fizzbuzz/cleaned-toxic-comments)
+- [Источник 2](https://www.kaggle.com/datasets/reihanenamdari/youtube-toxicity-data)
 
 ## Использованная метрика:
 f1-score
